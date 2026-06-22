@@ -122,4 +122,4 @@ def listen() -> None:
 
 
 def run(ui : gradio.Blocks) -> None:
-	ui.launch(share=True, favicon_path = 'ff.ico', inbrowser = state_manager.get_item('open_browser'))
+	ui.launch(favicon_path = 'ff.ico', inbrowser = state_manager.get_item('open_browser'))
